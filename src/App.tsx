@@ -29,6 +29,7 @@ import {
   copyCanvasToClipboard,
 } from './utils/backgroundRemoval';
 import { AlertCircle, RefreshCw } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [photo, setPhoto] = useState<PhotoData | null>(null);
@@ -439,6 +440,7 @@ export default function App() {
           </div>
         )}
       </main>
+      <SpeedInsights />
     </div>
   );
 }
