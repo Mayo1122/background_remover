@@ -1,0 +1,6 @@
+{
+  "name": "AI Background Remover",
+  "description": "Instantly remove backgrounds from photos with AI. Export high-res transparent PNGs, customize studio backdrops, add realistic shadows, and refine edges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
